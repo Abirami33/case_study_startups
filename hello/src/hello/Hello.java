@@ -4,14 +4,9 @@ import java.sql.*;
 
 public class Hello
 {
-	
-    public static PreparedStatement pstmt1 = null;
-    public static PreparedStatement pstmt2 = null;
     public static Connection conn = null;
     public static Statement stmt = null;
-    
-    
-    
+	
 	public static Connection getConnection() throws Exception
 	{
 	 String JDBC_DRIVER="org.h2.Driver"; //Driver connection
