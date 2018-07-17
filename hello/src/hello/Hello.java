@@ -29,9 +29,6 @@ public class Hello
 	return con;
 	}
 	
-	
-	
-	
 	public void createcom() throws SQLException
 	{
 		    //Connection for SQL statement
